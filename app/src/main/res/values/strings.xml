@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">El WARSHA</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="EL_WARSHA">EL WARSHA</string>
+    <string name="signup">SignUp</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="first_name">First Name</string>
+    <string name="Email">E-mail</string>
+    <string name="phone">phone</string>
+    <string name="Password">Password</string>
+    <string name="SignUp">SignUp</string>
+    <string name="login">LOGIN</string>
+    <string name="Forget_Password">Forget Password ?</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="FORGET_PASSWORD">FORGET PASWORD</string>
+    <string name="Send">Send</string>
+    <string name="send_your_email">send your name to restore your account password </string>
+    <string name="editprofile">EditProfile</string>
+    <string name="upload_your_image">Upload your image</string>
+    <string name="Save">Save</string>
+    <string name="title">Title</string>
+    <string name="description">description description description description  description description description description</string>
+    <string name="price">50</string>
+    <string name="book_now">Book Now</string>
+    <string name="HOME">HOME</string>
+    <string name="ali_zaki">ALI ZAKI</string>
+    <string name="Fvorite">Fvorite</string>
+    <string name="history">history</string>
+    <string name="settings">settings</string>
+    <string name="Aboutus">Aboutus</string>
+    <string name="Carpenters">Carpenters</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="Change_App_Language">change app language</string>
+    <string name="english">ENGLISH</string>
+    <string name="عربي">عربي</string>
+    <string name="Are_you">Are you sure you want to logout ?</string>
+    <string name="nOLOGOUT">NO</string>
+    <string name="LOGOUT">YES</string>
+
+    <string name="Electrician">Electrician</string>
+    <string name="SAVE">SAVE</string>
+
+</resources>

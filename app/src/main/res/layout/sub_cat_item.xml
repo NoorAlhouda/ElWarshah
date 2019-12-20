@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    app:cardElevation="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/andy"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="225dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/carpenter" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:textStyle="bold"
+
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="25dp"
+
+            android:text="@string/ali_zaki"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            />
+        <androidx.appcompat.widget.AppCompatRatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="50dp"
+            android:numStars="5"
+            android:rating="4"
+            android:layout_marginRight="75dp"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font"
+            android:layout_margin="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="150"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/favoImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="16dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
