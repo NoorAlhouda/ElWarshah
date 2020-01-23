@@ -41,7 +41,8 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>{
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mContext.startActivity(new Intent(mContext, itemsActivity.class).putExtra("pageName",mList.get(position).getCatName()));
+                mContext.startActivity(new Intent(mContext, itemsActivity.class)
+                        .putExtra("pageName",mList.get(position).getCatName()));
             }
         });
     }
